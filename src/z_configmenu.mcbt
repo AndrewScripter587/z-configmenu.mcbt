@@ -7,6 +7,8 @@
 
 # Some settings have an optional subconfig parameter at the end, this specifies the path of a function (example: mypack:any/path/subconfig-function) that is run when [...] is clicked in the setting. If omitted, the [...] will not show. Intended for settings that have other settings related to/depending on it to be put into a separate menu for better organization and more compact config menus.
 
+# For good examples on how to use this look at the code of my Old Combat Datapack, which uses this config system.
+
 # For boolean inputs; Has 2 possible values, true and false, corresponding to 1 and 0 respectively. If the value isn't 1 or 0, or doesn't exist, the input won't show up at all.
 # Looks like this: Setting: [True] [False]
 # If the value of the setting is 1, [False] will be colored red and [True] will be green.
