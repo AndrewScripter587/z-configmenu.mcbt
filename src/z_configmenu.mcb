@@ -22,16 +22,13 @@ function run_and_return {
 }
 
 
-function confirmtest {
-    confirm <%""%>
-}
 
 function empty {
     tellraw @s ""
 }
 
 function confirm {
-    confirm macro
+    confirm macro false
 }
 
 function testconfig {
